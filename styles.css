@@ -1,0 +1,118 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #4a6fa5;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #eef2f7;
+}
+
+/* Form Styles */
+.quote-form {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group textarea,
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #3a5a80;
+}
+
+/* Saved Quotes Styles */
+.quote-list {
+    display: grid;
+    gap: 20px;
+}
+
+.quote-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-left: 4px solid #4a6fa5;
+}
+
+.quote-text {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    font-weight: 600;
+    text-align: right;
+    color: #4a6fa5;
+}
+
+.empty-message {
+    text-align: center;
+    color: #666;
+    padding: 40px 0;
+    font-style: italic;
+}

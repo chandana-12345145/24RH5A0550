@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Quotes - My Quote Journal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Saved Quotes</h1>
+            <nav>
+                <a href="index.html">Create New Quote</a>
+            </nav>
+        </header>
+
+        <section class="saved-quotes">
+            <h2>Your Saved Quotes</h2>
+            <div id="quoteList" class="quote-list">
+                <!-- Quotes will be loaded here by JavaScript -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Load quotes when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            displaySavedQuotes();
+        });
+    </script>
+</body>
+</html>
